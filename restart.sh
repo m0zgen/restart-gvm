@@ -3,6 +3,7 @@
 # Simple restart OpenVAS script
 
 restart_ctl() {
+    echo "Restarting: $1 .."
     systemctl restart $1
 }
 
